@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FactZone</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .mainfile{background-color: #36454F;
+            background-image: url("assets/mainbackground-image.jpg");
+            position: fixed;
+             background-size: cover;
+             background-position: center center;
+
+        }
+    </style>
+</head>
+
+
+<frameset rows="17%,8%, *">
+    <frame src="assets/head.html">
+    <frame src="assets/menu/menu.html">
+        <frameset cols="18%,82%">
+            <frame name="left" src="assets/left-nav/left-nav.html">
+                <frame class="mainfile" name="main" >
+
+        </frameset>
+        </ frameset>
+
+</html>

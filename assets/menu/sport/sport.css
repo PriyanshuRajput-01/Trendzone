@@ -1,0 +1,35 @@
+a{
+    display: block;
+}
+body{
+    background-image: url("sportsleftbackground-image.jpg");
+    background-position: center center;
+    position: fixed;
+    z-index: -2;
+    
+}
+div{
+    width: 255px;
+    
+}
+a{  margin-top: 20px;
+    height: 40px;
+    width: 255px;
+    background-color: #36454F;
+    color: rgb(186, 186, 243);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border: 2.5px solid transparent;
+    border-radius: 10px;
+    
+}
+
+.border:hover{
+    border: 2.5px solid rgb(0, 25, 29);
+    color: rgb(248, 183, 183);
+}
+a:hover{
+     background-color:#151414
+}

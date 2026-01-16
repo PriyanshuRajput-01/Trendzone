@@ -1,0 +1,31 @@
+a{
+    display: block;
+}
+body{
+    background-image: url("gamingleftbackground-image.jpg");
+    background-position: bottom center;
+    position: fixed;
+    z-index: -2;
+    
+}
+div{
+    width: 255px;
+    
+}
+a{  margin-top: 20px;
+    height: 40px;
+    background-color: #1d262c;
+    color: rgb(239, 116, 116);
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    
+}
+.border:hover{
+    border: 1.5px solid rgb(239, 24, 24);
+    color: rgb(146, 153, 255);
+    background-color: black;
+}

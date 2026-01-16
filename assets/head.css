@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    background-image: url(head-img.jpg);
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+}
+.heading{
+    text-align: center;
+    margin-top: 15px;
+    height: 100%;
+}
+.heading1{
+    
+    font-size: 70px;
+    font-weight: 900;
+    font-family: cursive;
+    color: aliceblue;
+    animation: anime 10s infinite normal;
+   
+}
+@keyframes anime{
+    33%{
+        color: red;
+    }
+    48%{
+        color: blue;
+    }
+   
+    76%{
+        color: green;
+    }
+    
+    
+    
+}
+
+
+
+
